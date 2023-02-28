@@ -9,8 +9,9 @@ async def download_image(session, url):
         start_time = time.monotonic()
         async with session.get(url) as response:
             content = await response.read()
-            filename = url.split("/")[-1]
-            with open(os.path.join("images", filename), "wb") as file:
+            filename = f"{url.split('/')[-1]}.png"
+            filepath = os.path.join("images", filename)
+            with open(filepath, "wb") as file:
                 file.write(content)
                 end_time = time.monotonic()
                 print(f"{filename} downloaded in {end_time - start_time:.2f} seconds")
