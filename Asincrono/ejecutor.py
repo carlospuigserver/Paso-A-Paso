@@ -7,7 +7,7 @@ from os import sep
 from sys import stderr
 from bs4 import BeautifulSoup
 from timeit import timeit
-from descargar import wget
+from descargar_y_parsear import wget
 
 
 def write_in_file(filename, content):   
