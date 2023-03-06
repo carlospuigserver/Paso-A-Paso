@@ -41,3 +41,13 @@ if __name__ == "__main__":
         os.mkdir("images")
     asyncio.run(download_images(num_images))
 ```
+
+<img width="905" alt="foto1" src="https://user-images.githubusercontent.com/91721643/223157067-4f44b4db-0080-45a4-9c2a-ebf746efe3f9.png">
+
+
+<img width="847" alt="foto2" src="https://user-images.githubusercontent.com/91721643/223157159-9bccbfa7-d434-407a-b599-203ffce9c1be.png">
+
+<img width="902" alt="foto3" src="https://user-images.githubusercontent.com/91721643/223157221-96269959-9898-4299-b1a2-62d9b26f36fd.png">
+
+
+
